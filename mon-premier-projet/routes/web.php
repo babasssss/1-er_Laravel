@@ -17,4 +17,7 @@ Route::get('/', function () {
     return view('welcome', ['titre' => 'Mon premier exemple.']);
 });
 
+Route::get('/ping', function () {
+    return view('ping');
+});
 
